@@ -1,5 +1,7 @@
 {
-  "scripts": {"start": "vite"},
+  "scripts": {"start": "vite",
+  "build": "npx tailwindcss -i ./main.css -o ./output.css --minify"
+},
   
   "devDependencies": {
     "autoprefixer": "^10.4.20",
